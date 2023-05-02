@@ -257,42 +257,64 @@ export default function Home({ articles }) {
     <>
       <Head>
         <title>
-          Spencer Sharp - Software designer, founder, and amateur astronaut
+          MD Ahad Hasan (Rafi) - Software engineer, indie hacker and amateur
+          traveller
         </title>
         <meta
           name="description"
-          content="I’m Spencer, a software designer and entrepreneur based in New York City. I’m the founder and CEO of Planetaria, where we develop technologies that empower regular people to explore space on their own terms."
+          content="I'm Rafi, a software engineer and indie hacker based in Dhaka, Bangladesh. I'm currently working for Slumber Group as a senior
+          software engineer."
         />
+        <meta
+          property="og:title"
+          content="MD Ahad Hasan (Rafi) - Software engineer, indie hacker and amateur traveller"
+        />
+        <meta
+          property="og:description"
+          content="I'm Rafi, a software engineer and indie hacker based in Dhaka, Bangladesh. I'm currently working for Slumber Group as a senior
+          software engineer. I'm currently hacking some side projects and travelling the east asian countries."
+        />
+        <meta
+          property="og:image"
+          content="https://mdahadhasan.com/og-image.png"
+        />
+        <meta property="og:url" content="https://mdahadhasan.com" />
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:site_name"
+          content="MD Ahad Hasan (Rafi) - Software engineer, indie hacker and amateur traveller"
+        />
+        <meta name="twitter:card" />
       </Head>
       <Container className="mt-9">
         <div className="max-w-2xl">
           <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-            Software designer, founder, and amateur astronaut.
+            Software engineer, indie hacker, and amateur traveller.
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            I’m Spencer, a software designer and entrepreneur based in New York
-            City. I’m the founder and CEO of Planetaria, where we develop
-            technologies that empower regular people to explore space on their
-            own terms.
+            I&apos;m Rafi, a software engineer and indie hacker based in Dhaka,
+            Bangladesh. I&apos;m currently working for Slumber Group as a senior
+            software engineer. I&apos; currently hacking some side projects and
+            travelling the east asian countries.
           </p>
           <div className="mt-6 flex gap-6">
             <SocialLink
-              href="https://twitter.com"
+              href="https://twitter.com/rafi_talks"
               aria-label="Follow on Twitter"
               icon={TwitterIcon}
             />
             <SocialLink
-              href="https://instagram.com"
+              href="https://www.instagram.com/rafi__talks"
               aria-label="Follow on Instagram"
               icon={InstagramIcon}
             />
             <SocialLink
-              href="https://github.com"
+              href="https://github.com/Joker666"
               aria-label="Follow on GitHub"
               icon={GitHubIcon}
             />
             <SocialLink
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/hasanrafi"
               aria-label="Follow on LinkedIn"
               icon={LinkedInIcon}
             />
